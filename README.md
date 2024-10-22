@@ -20,6 +20,6 @@ This Spring Boot application provides detailed information about network interfa
 
 If you found this project helpful or interesting and would like to buy me a beer, you can donate via PayPal:
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](paypal.me/cosminsoy)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/cosminsoy)
 
 Thank you for your support!
