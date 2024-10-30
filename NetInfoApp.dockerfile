@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY * .
 
-RUN mvn clean install
+RUN mvn clean
 
 FROM eclipse-temurin:17-jre
 
