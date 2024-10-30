@@ -2,16 +2,16 @@ FROM maven:3.9.4-eclipse-temurin-17 AS build
 
 WORKDIR /app
 
-COPY * .
+COPY . .
 
-RUN mvn clean
+RUN mvn clean package
 
 FROM eclipse-temurin:17-jre
 
 RUN apt-get update && apt-get upgrade -y
 
 WORKDIR /app
-RUN --from=build ls -a
+
 COPY --from=build /app/target/*.jar app.jar
 
 EXPOSE 8080
