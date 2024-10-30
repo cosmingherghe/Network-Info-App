@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN mvn clean package
-
 FROM eclipse-temurin:17-jre
 
 RUN apt-get update && apt-get upgrade -y
