@@ -1,4 +1,4 @@
-# Network Information Application
+# 🔌Network Information Application
 This Spring Boot application provides detailed information about network interfaces and can be deployed on various containers. It's built as part of my learning process on networking concepts like IP addresses, MAC addresses, loopback interfaces, multicast support, and more.
 
 ## Features
