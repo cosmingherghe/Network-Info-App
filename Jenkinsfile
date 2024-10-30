@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Update Image - Network-Info-App') {
             steps {
-                sh 'docker build -t netinfo:test -f JDK17.dockerfile .'
+                sh 'ls -a'
+                // sh 'docker build -t netinfo:test -f JDK17.dockerfile .'
             }
         }
     }
