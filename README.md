@@ -1,4 +1,4 @@
-# Network Information Application
+# 🔌Network Information Application
 This Spring Boot application provides detailed information about network interfaces and can be deployed on various containers. It's built as part of my learning process on networking concepts like IP addresses, MAC addresses, loopback interfaces, multicast support, and more.
 
 ## Features
@@ -20,6 +20,6 @@ This Spring Boot application provides detailed information about network interfa
 
 If you found this project helpful or interesting and would like to buy me a beer, you can donate via PayPal:
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](paypal.me/cosminsoy)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/cosminsoy)
 
 Thank you for your support!
