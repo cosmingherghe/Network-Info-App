@@ -1,14 +1,12 @@
-FROM maven:3.9.4-eclipse-temurin-17 AS build
+FROM maven:3.9.3-eclipse-temurin-17 AS build
 
 WORKDIR /app
 
 COPY . .
 
-RUN ls -la 
+RUN mvn clean package
 
 FROM eclipse-temurin:17-jre
-
-RUN apt-get update && apt-get upgrade -y
 
 WORKDIR /app
 
